@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "vue-tutorial-b8901",
+    "staging": "vue-tutorial-b8901"
+  }
+}
