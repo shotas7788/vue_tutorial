@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header/>
-    <FixedTop/>
-    <router-view :cardsFolder="cardsFolder"/>
+    <Header :paginationState="paginationState"/>
+    <FixedTop :paginationState="paginationState"/>
+    <router-view :paginationState="paginationState" :cardsFolder="cardsFolder"/>
   </div>
 </template>
 
